@@ -30,4 +30,9 @@ What are some situations when branches would be helpful in keeping your history 
  
  Difficult to see reachability and follow many branches without diagrams
  
+ What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+ 
+ Cant really see any cons. Maybe that i prefer to be me the one that screws it up rather than git (someone 
+ else in general) given that i have to clean the mess. Other than that git makes wonderful job merging 
+ what it can and leaving you who know better take decisions that are hard to make.
  
