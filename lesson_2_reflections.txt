@@ -1,0 +1,16 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+I start keeping track of my progress working on a project. Can easily experiment and progress towards
+ different goals in the same time.
+ Generally is a good and smart thing to do. Being able to have versions for your project and switching 
+ among them for debugging or safe haven if you suddently come up with something like "panic! The impossible 
+ just happened!".
+ 
+ How is the staging area different from the working directory and the repository? What value do you think
+ it offers?
+ 
+ When working in 3 files you can add them in the staging area one at a time when you finished your job in them.
+ Trying to make an example you might have a working directory with 10 files, 3 files in staging area and none
+ in the repository. Potentially you will end up having the same numbers of files in the working directory and
+ the repository and only a few each time in the staging area.
+ 

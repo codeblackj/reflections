@@ -1,0 +1,56 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Assuming that you had some properly working code, and after some additions it stops working,
+ comparing the two files makes it easy to locate and correct the mistakes in your newly added 
+ code. The fact that it worked properly before the addition leaves no choice that he bug must 
+ be in the latest pieces of code.
+ 
+ Furthermore sometimes long blocks of code are same for different projects so you can check
+ what's going wrong if you know that one is right. Blah Blah Blah cant write any more. I am 
+ drying out of ideas.
+ 
+ How could having easy access to the entire history of a file make you a more efficient
+ programmer in the long term?
+ 
+ First of all you feel safety. You are more likely to try new things if you know that there is
+ an undo button if you screw it up. You can also check you progress according to your goals
+ and how they are achieved or not. You can try getting different approaches to solve a problem  
+ and if you end in a deadend you can always return to fork and take the other turn around.
+ 
+ What do you think are the pros and cons of manually choosing when to create a commit, like you
+ do in Git, vs having versions automatically saved, like Google docs does?
+ 
+ By choosing manually when to create a commit you have a program that works or should to. By that i mean 
+ that there are complete blocks of code which can be debugged, run, tested or whatever. Let's say 
+ if we were talking about writing books you have meaningful paragraphs and not uncompleted sentences.
+ On the other hand if you forget to commit for too long you risk to lose a lot of work, let aside that the 
+ diff will be useless in the hopeful event that everything goes well and you dont run over serious
+ obstacles.
+ 
+ Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+ while others, like Google Docs, treat each file separately?
+ 
+ A programming project consists of several folders and even more files that all work together to achieve
+ a goal. Git is a tool for programmers, and when working on a project you might have to change multiple
+ files to implement on tiny tiny addition or change or fix something. When I add a button for example
+ in an android project i want a commit describing the change for the whole project including the 3-4 files
+ i have make changes in order to add the button, and not 3-4 different commits. I dont care about how
+ each file evolves but about how my project as a whole evolves.
+ 
+ How can you use the commands git log and git diff to view the history of files?
+ 
+ git log gives you the list with all available commits plus a short description of the changes that have
+ been made each time. If you need further more detail about this changes, for example how these have been 
+ implemented, in which files, the exact changes in the code etc you use git diff comparing 2 adjacent
+ versions.
+ 
+ How might using version control make you more confident to make changes that could break something?
+ 
+ Very much. Absolutely. Perfectly confident. There is no need at all to be afraid of anything anymore 
+ while programming.
+ 
+ Now that you have your workspace set up, what do you want to try using Git for?
+ 
+ Telling the truth I dont feel confident enough to start using it in real projects but I am looking forward
+ to try it in a OpenCart project I am working on and also in Android projects I also work on.
+ 
