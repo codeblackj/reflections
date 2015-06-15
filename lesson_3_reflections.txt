@@ -15,3 +15,7 @@ Why might you want to always pull changes manually rather than having Git automa
  Fork is good if i want to work on somebody's else project on my own and not cooperatively. Clones are good 
  to copy project on different pc's i happen to work on regularly. Branches are good every time i want to start
  working on a new feature, especially if i want to work on several new features on the same time.
+ 
+ What is the benefit of having a copy of the last known state of the remote stored locally?
+ 
+ Helpfull for resolving merge conflicts
