@@ -9,3 +9,9 @@ Why might you want to always pull changes manually rather than having Git automa
  I want to pull only when there is a point to do so, other people might also use the commits or work upon them,
  so it's crucial to be meaningful ones and not random.
  test line
+ 
+ Describe the differences between forks, clones, and branches. When would you use one instead of another?
+ 
+ Fork is good if i want to work on somebody's else project on my own and not cooperatively. Clones are good 
+ to copy project on different pc's i happen to work on regularly. Branches are good every time i want to start
+ working on a new feature, especially if i want to work on several new features on the same time.
